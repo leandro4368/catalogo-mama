@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+/* Catálogo de productos */
+.producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+    border: 1px solid #ddd;
+}
+
+.producto h2 {
+    font-size: 20px;
+    color: #3498db;
+    margin: 10px 0;
+}
+
+.producto p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.producto button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.producto button:hover {
+    background-color: #2271b3;
+}
+
+/* Efectos de animación */
+.producto:hover {
+    transform: scale(1.05);
+}
+
+
+body{font-family:Arial,sans-serif;background-color:#f2f2f2;margin:0;padding:0}header{background-color:#3498db;color:#fff;text-align:center;padding:20px}nav ul{list-style:none;background-color:#3498db;padding:0}nav li{display:inline;margin-right:20px}nav a{text-decoration:none;color:#fff}section{background-color:#fff;margin:20px;padding:20px}h1,h2{color:#3498db}footer{background-color:#3498db;color:#fff;text-align:center;padding:10px}.servicios-container{display:flex;flex-wrap:wrap;justify-content:space-around;overflow:hidden}.servicio{text-align:center;margin:10px;padding:10px;transform:translateX(-100%);animation:slideRight 1s ease-in-out forwards}.servicio img{width:200px;height:auto}@keyframes slideRight{to{transform:translateX(0)}}
